@@ -9,6 +9,8 @@ Features:
 *  Used various Stanford 3D Models: Bunny, Lucy, Dragon, and others.
 *  Utilizing Dear ImGui graphical user interface library for easy real-time debugging and configuration
 
+![Alt Text](https://github.com/timurson/DeferredShading/blob/master/Image1.PNG)
+![Alt Text](https://github.com/timurson/DeferredShading/blob/master/Image2.PNG)
 
 
 ## External Libraries Used:
