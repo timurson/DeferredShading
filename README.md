@@ -2,7 +2,7 @@
 Experimentation with doing deferred rendering using OpenGL.  I implemented this project almost entirely from scratch starting with a basic GLFW OpenGL framework and Assimp (Open Asset Import Library) for model loading.
 I was already familiar with a concept of deferred shading from attending various GDC lectures in the past, but have not had a chance to really experiment with deferred lighting until now. Attempting to simulate thousands of local area lights in the scene is a pretty fascinating endeavor and I am really glad I had an opportunity to do that in this project.
 
-Features:
+## Features:
 *  Support for rendering into multiple render targets using OpenGL’s frame buffer objects that I ended up wrapping into a custom class for ease of use.
 *  Support for over a thousand (possibly more) local area lights that are being rendered as spherical volumes.
 *  Blinn-Phong lighting calculation is being applied during the initial deferred global light with shadows pass and the final area lights rendering stage.
